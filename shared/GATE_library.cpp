@@ -15,3 +15,7 @@ void GATE_essay_eval::evaluate(const string& expression) {
 void GATE_truefalse_eval::evaluate(const string& expression) {
     cout << "Evaluated " << expression << " as per Gate true false question" << endl;
 }
+
+void GATE_coding_eval::evaluate(const string& expression) {
+    cout << "Evaluated " << expression << " as per Gate coding question" << endl;
+}

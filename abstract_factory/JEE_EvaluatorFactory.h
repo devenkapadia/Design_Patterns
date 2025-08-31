@@ -10,6 +10,7 @@ public:
     Evaluator* createFillin() override;
     Evaluator* createEssay() override;
     Evaluator* createTrueFalse() override;
+    Evaluator* createCoding() override;
 };
 
 #endif

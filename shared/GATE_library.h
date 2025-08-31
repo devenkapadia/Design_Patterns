@@ -23,4 +23,9 @@ public:
     void evaluate(const string& expression) override;
 };
 
+class GATE_coding_eval : public Evaluator {
+public:
+    void evaluate(const string& expression) override;
+};
+
 #endif

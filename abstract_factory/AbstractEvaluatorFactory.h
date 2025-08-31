@@ -9,6 +9,7 @@ public:
     virtual Evaluator* createFillin() = 0;
     virtual Evaluator* createEssay() = 0;
     virtual Evaluator* createTrueFalse() = 0;
+    virtual Evaluator* createCoding() = 0;
     virtual ~AbstractEvaluatorFactory() {}
 };
 

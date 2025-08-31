@@ -15,3 +15,7 @@ void JEE_essay_eval::evaluate(const string& expression) {
 void JEE_truefalse_eval::evaluate(const string& expression) {
     cout << "Evaluated " << expression << " as per JEE true false question" << endl;
 }
+
+void JEE_coding_eval::evaluate(const string& expression) {
+    cout << "Evaluated " << expression << " as per JEE coding question" << endl;
+}
